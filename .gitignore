@@ -1,0 +1,11 @@
+node_modules/
+
+# Generated per-run output: the HTML report, plus screenshots, traces and
+# videos for failed tests. All of it is reproducible with `npm test`, so none
+# of it belongs in version control - a committed report is stale the moment
+# anyone runs the suite again. On a project with CI this would be published as
+# a build artefact instead.
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
